@@ -1,0 +1,37 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div></div>
+
+    <form>
+      <h3 style="text-align: center">Mengajukan Pinjaman</h3>
+      <p>Nama</p>
+      <input
+        style="margin-bottom: 1rem; border-radius: 3px"
+        type="text"
+        placeholder="Masukan Nama"
+      />
+      <input type="text" placeholder="Masukan NIK" />
+      <label for="range1">Minimal Pinjaman</label>
+      <input id="range1" name="range1" type="range" min="0" max="9" value="5" />
+      <label for="range2">Tenor</label>
+      <input
+        id="range2"
+        name="range2"
+        type="range"
+        min="0"
+        max="300"
+        value="150"
+      />
+      <div style="margin-left: 3rem;">
+        <button class="button">Ajukan Peminjaman</button>
+      </div>
+    </form>
+    <script src="script.js"></script>
+  </body>
+</html>
